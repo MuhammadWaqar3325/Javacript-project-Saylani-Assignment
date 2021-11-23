@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.boxe{
+    
+    border: 1px solid black;
+    box-shadow: 1px 1px 48px 2px rgba(0,0,0,0.53);
+-webkit-box-shadow: 1px 1px 48px 2px rgba(0,0,0,0.53);
+-moz-box-shadow: 1px 1px 48px 2px rgba(0,0,0,0.53);
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(207, 235, 253);
+}
+
+.boxing-contant{
+  
+    text-align: center;
+     margin-top: 100px;
+   
+}
+.heading{
+    font-size: 50px;
+    
+}
+#counter{
+    font-size: 100px;
+    margin-top: 10px;
+}
+.btndiv{
+   margin-top: 40px;
+   
+}
+.btndiv > Button{
+    padding: 10px 10px 10px 10px;
+}
