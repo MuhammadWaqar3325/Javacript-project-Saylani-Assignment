@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(227, 245, 255) !important;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+}
+.container-con{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+
+  
+  
+
+  .reviews{
+      /* border: 2px solid black; */
+      margin-left: 25%;
+      width: 50%;
+     background-color: white;
+     /* text-align: center; */
+      
+  }
+  img{
+      border-radius:50% ;
+  }
+
+  .btn-container{
+      cursor: pointer;
+  }
