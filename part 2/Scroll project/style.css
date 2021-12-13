@@ -7,26 +7,26 @@
     padding: 20px !important;
 } */
 
-
+/* 
  nav {
     background: white !important;
     padding: 1rem 1.5rem;
   }
-  /* fixed nav */
+ 
   .fixed-nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: white;
-    /* box-shadow: light-shadow; */
+   
   }
   .fixed-nav , .links a {
     color: gray !important;
   }
   .fixed-nav , .links a:hover {
     color: aqua !important;
-  } 
+  }  */
 
 
 
@@ -125,7 +125,7 @@
       color: white;
       font-size: 1.1rem;
       text-transform: capitalize;
-      /* letter-spacing: var(--spacing); */
+      
       display: block;
       transition: 1s;
       margin: 0 1rem;
@@ -165,3 +165,72 @@
 }
 
   
+
+
+
+
+
+
+
+
+
+.title h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.title span {
+  color:aqua;
+}
+#about,
+#services,
+#tours {
+  height: 80vh;
+}
+#services {
+  background: white;
+}
+footer {
+  background:gray;
+  padding: 5rem 1rem;
+}
+footer p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  /* letter-spacing: var(--spacing); */
+  margin-bottom: 0;
+}
+
+/* .top-link {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: aqua;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  color: white;
+  animation: bounce 2s ease-in-out infinite;
+
+  visibility: hidden;
+  z-index: -100;
+}
+.show-link {
+  visibility: visible;
+  z-index: 100;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
