@@ -78,7 +78,7 @@
 
   .links a {
     background-color:white;
-    color: rgb(170, 167, 167);
+    color: rgb(0, 0, 0) !important;
     font-size: 1.1rem;
     text-transform: capitalize;
     display: block;
@@ -116,7 +116,7 @@
       display: none;
     }
     .links-container {
-      /* height: auto !important; */
+      height: auto !important;
     }
     .links {
       display: flex;
