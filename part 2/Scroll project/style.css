@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* #nav {
+    padding: 20px !important;
+} */
+
+
+ nav {
+    background: white !important;
+    padding: 1rem 1.5rem;
+  }
+  /* fixed nav */
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    /* box-shadow: light-shadow; */
+  }
+  .fixed-nav , .links a {
+    color: gray !important;
+  }
+  .fixed-nav , .links a:hover {
+    color: aqua !important;
+  } 
+
+
+
+  .nav-haeder {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-toggle{
+    font-size: 2rem ;
+    color: rgb(170, 167, 167);
+    background: transparent;
+    border-color: transparent;
+    transition: 1s;
+    /* transition: var(--transition); */
+    cursor: pointer;
+  
+  
+}
+/* .nav-toggle, i {
+    display: inline-block;
+    justify-content: space-between;
+} */
+
+
+.nav-toggle:hover{
+    color: aqua;
+}
+.logo {
+    height: 50px;
+  }
+  .links-container {
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .show-links {
+    height: 200px;
+  }
+
+  .links a {
+    background-color:white;
+    color: rgb(170, 167, 167);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    display: block;
+    transition: 2s;
+    font-weight: bold;
+    padding: 0.75rem 0;
+  }
+  .links a:hover {
+    color: rgb(170, 167, 167);
+    
+  }
+
+
+  @media screen and (min-width: 800px) {
+    nav {
+      background: transparent;
+    }
+    .nav-center {
+      width: 90vw;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-haeder {
+      padding: 0;
+    
+  
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links-container {
+      height: auto !important;
+    }
+    .links {
+      display: flex;
+      list-style: none;
+    }
+    .links a {
+        
+      background: transparent;
+      color: white;
+      font-size: 1.1rem;
+      text-transform: capitalize;
+      /* letter-spacing: var(--spacing); */
+      display: block;
+      transition: 1s;
+      margin: 0 1rem;
+      font-weight: bold;
+      padding: 0;
+    }
+    .links a:hover {
+      color: white;
+    }
+  }
+
+
+  header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+      url(./hero-bcg.jpg) center/cover no-repeat;
+  }
+  .banner {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .container h1 {
+    color:white;
+    text-transform: uppercase;
+  }
+  .container p {
+    color:white;
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+  }
+.btn-white{
+    border: 2px solid white !important;
+    color: white !important;
+}
+
+  
