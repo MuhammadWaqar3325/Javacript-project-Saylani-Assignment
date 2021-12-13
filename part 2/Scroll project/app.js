@@ -42,4 +42,22 @@ window.addEventListener("scroll", function (){
     }
 });
 
+        //    smooth scroll
+const scrollLinks = document.querySelectorAll(".scroll-link");
+
+scrollLinks.forEach(function (link){
+    link.addEventListener("click", function (e){
+        e.preventDefault();
+
+        const id = e.currentTarget.getAttribute("href").slice(1);
+        const element = document.getElementById(id);
+        let position = element.offsetTop;
+        
+        window.scrollTo({
+            left:100,
+            top: position,
+        });
+        linkContainer.style.height = 0;
+    });
+});
 
