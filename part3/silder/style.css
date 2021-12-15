@@ -1,0 +1,23 @@
+.container-box {
+    min-height: 100vh;
+    background: url("../img/contBcg-0.jpeg") center/cover fixed no-repeat;
+   
+    border:10px solid blue ;
+    
+    position: relative;
+  }
+  .btn-left{
+      background-color: white !important;
+      position: absolute;
+      top: 50%;
+      left: 0;
+  }
+  .btn-right{
+    background-color: white !important;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+
+  
